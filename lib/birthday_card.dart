@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Color textColor = Color(0xFF6667AB);
+    Color textColor = const Color(0xFF6667AB);
     return MaterialApp(
       home: Scaffold(
         body: Container(
@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
                           Shadow(
                             blurRadius: 10,
                             color: Colors.black.withOpacity(0.5),
-                            offset: Offset(3, 3),
+                            offset: const Offset(3, 3),
                           ),
                         ], // 그림자 추가
                       ),
@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget {
                           Shadow(
                             blurRadius: 10,
                             color: Colors.black.withOpacity(0.5),
-                            offset: Offset(3, 3),
+                            offset: const Offset(3, 3),
                           ),
                         ], // 그림자 추가
                       ),
@@ -78,7 +78,7 @@ class MyApp extends StatelessWidget {
                           Shadow(
                             blurRadius: 10,
                             color: Colors.black.withOpacity(0.5),
-                            offset: Offset(3, 3),
+                            offset: const Offset(3, 3),
                           ),
                         ], // 그림자 추가
                       ),
@@ -100,7 +100,7 @@ class MyApp extends StatelessWidget {
                             Shadow(
                               blurRadius: 10,
                               color: Colors.black.withOpacity(0.5),
-                              offset: Offset(3, 3),
+                              offset: const Offset(3, 3),
                             ),
                           ], // 그림자 추가
                         ),
